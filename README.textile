@@ -1,9 +1,12 @@
 h2. Corona Mock for gameNetwork
 
-You cannot utilize the gameNetwork functions in Corona in the emulator. I wrote a class that visually
-fakes it and detects if you're in the emulator or on an actual device. If in the emulator,
-it'll show an OpenFeint like GUI, confirming that you're code is working. If on the device,
-it'll utilize the real gameNetwork calls. Wrapping it, you're code doesn't change at all.
+You cannot utilize the gameNetwork functions in Corona in the emulator. Not being able
+to visually see if your code is working in the emulator is frustrating.
+
+So, I wrote a class that visually fakes it and detects if you're in the emulator or
+on an actual device. If in the emulator, it'll show an OpenFeint like GUI,
+confirming that you're code is working. If on the device, it'll utilize the
+real gameNetwork calls. Wrapping it, you're code doesn't change at all.
 
 For now, I only support OpenFeint achievements & init; working on Papaya Mobile soon. An example
 of how you wrap Achievements is included in the examples.
