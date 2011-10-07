@@ -11,14 +11,12 @@ real gameNetwork calls. Wrapping it, you're code doesn't change at all.
 For now, I only support OpenFeint achievements & init; working on Papaya Mobile soon. An example
 of how you wrap Achievements is included in the examples.
 
-You can see a video example of it here:
-
-"Video Example":http://www.youtube.com/watch?v=sAaXBDbcmec
+You can see a video example of it here: "http://www.youtube.com/watch?v=sAaXBDbcmec":http://www.youtube.com/watch?v=sAaXBDbcmec
 
 Jesse Warden
-"Email":jessew@webappsolution.com
-"Twitter":@jesterxl
-"Blog":http://jessewarden.com
+"email: jessew@webappsolution.com":jessew@webappsolution.com
+"twitter: @jesterxl":@jesterxl
+"blog: http://jessewarden.com":http://jessewarden.com
 
 h3. Getting Started With Corona
 * "Brief Overview":http://www.anscamobile.com/corona/
