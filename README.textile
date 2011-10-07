@@ -1,50 +1,23 @@
-h2. Robotlegs For Corona: A pure AS3 micro-architecture originally for Flash and Flex, ported to Corona
+h2. Corona Mock for gameNetwork
 
-Robotlegs For Corona is a lightweight Lua MVCS micro-architecture. Robotlegs was created to provide a small, loosely coupled application framework that is easy to test.
+You cannot utilize the gameNetwork functions in Corona in the emulator. I wrote a class that visually
+fakes it and detects if you're in the emulator or on an actual device. If in the emulator,
+it'll show an OpenFeint like GUI, confirming that you're code is working. If on the device,
+it'll utilize the real gameNetwork calls. Wrapping it, you're code doesn't change at all.
 
-Robotlegs enables:
+For now, I only support OpenFeint achievements & init; working on Papaya Mobile soon. An example
+of how you wrap Achievements is included in the examples.
 
-* Dependency Injection (sort of, not really... haven't figured out metadata/annotations in Lua yet)
-* Loosely coupled inter-object messaging using native Corona Events
-* Simple command execution and automation
-* View component mediation
-
-"Official Robotlegs Website":http://www.robotlegs.org
-
-h3. Getting Started With Robotlegs
-
-* "Brief Overview":http://github.com/robotlegs/robotlegs-framework/wiki/Overview
-* "Common Problems":http://github.com/robotlegs/robotlegs-framework/wiki/Common-Problems
-* "Best Practices":http://github.com/robotlegs/robotlegs-framework/wiki/Best-Practices
-* "Robotlegs Internals":http://github.com/robotlegs/robotlegs-framework/wiki/Robotlegs-Internals
+Jesse Warden
+email: jessew@webappsolution.com
+twitter: @jesterxl
+blog: http://jessewarden.com
 
 h3. Getting Started With Corona
 * "Brief Overview":http://www.anscamobile.com/corona/
 * "Corona FAQ":http://www.anscamobile.com/corona/faq/
 * "API's at a glance":http://developer.anscamobile.com/resources/apis
 * "Resources":http://www.anscamobile.com/resources/
-
-h3. Code
-
-* "Robotlegs AS3 Framework":http://github.com/robotlegs/robotlegs-framework
-* "Robotlegs Demos and Utilities":http://github.com/robotlegs
-* "Robotlegs for Corona":https://github.com/JesterXL/Robotlegs-for-Corona
-
-h3. Help, Support, Collaboration
-
-* "Robotlegs Knowledge Base":http://knowledge.robotlegs.org
-* "Robotlegs Development Discussion Group":http://groups.google.com/group/robotlegs
-* "Robotlegs Issue Tracking":http://robotlegs.lighthouseapp.com/tickets
-
-h3. News:
-
-* "Follow Robotlegs on Twitter":http://twitter.com/robotlegs_as3
-* "Follow Ansca, makers of Corona, on Twitter":https://twitter.com/ansca
-
-h3. Other Resources
-
-
-* "SwiftSuspenders - what I'm trying to figure out how to do in Lua":http://github.com/tschneidereit/SwiftSuspenders
 
 h2. License
 
